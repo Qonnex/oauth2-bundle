@@ -12,14 +12,14 @@
         }
     ],
     "require": {
-        "php": ">=7.2",
+        "php": ">=7.2|^8.0",
         "doctrine/doctrine-bundle": "^2.0.3",
         "doctrine/mongodb-odm-bundle": "^4.1",
         "league/oauth2-server": "^7.2",
         "psr/http-factory": "^1.0",
         "sensio/framework-extra-bundle": "^5.5",
         "symfony/framework-bundle": "^3.4|^4.2|^5.0",
-        "symfony/psr-http-message-bridge": "^1.3",
+        "symfony/psr-http-message-bridge": "^2.0",
         "symfony/security-bundle": "^3.4|^4.2|^5.0"
     },
     "require-dev": {
